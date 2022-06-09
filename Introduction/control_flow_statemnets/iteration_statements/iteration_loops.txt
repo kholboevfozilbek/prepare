@@ -1,0 +1,11 @@
+
+
+To design loops we must know:
+    a sequence of statements we want to repeat
+    a condition that determines the number of executions
+
+
+In general, we have the following loops:
+    finite with known number of executions
+    finite with unknown number of executions
+    infinite

@@ -1,0 +1,32 @@
+
+In order to store in the computer memory a value given by the
+user (using the keyboard) or computed by the program, we need
+to define a variable of an appropriate type.
+
+To store the length of side of a square we type
+double side;
+
+In result we can use variable side that is of double type –
+double represents real values.
+
+When the program runs, in the computer memory an appropriate
+area (corresponding to the size of the type, in that case 8 bytes)
+is reserved.
+
+The area is referred to by the variable name.
+
+The variable named side is not initialized, it means that has a
+random value. The compiler puts the variable somewhere in
+memory and treats whatever bit pattern was in that memory as
+the variable initial state.
+
+Each variable can be initialized with a value when it is defined,
+e.g. when we type
+double side=0;
+the variable side is initialized with zero.
+
+// SCOPE
+We can use a variable from the point
+of the variable definition till the end
+of the block where it is defined.
+

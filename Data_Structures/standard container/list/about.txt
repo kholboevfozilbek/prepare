@@ -1,0 +1,24 @@
+
+# Lists are sequence containers that allow constant time insert and erase operations anywhere within the sequence, and iteration in both directions.
+
+
+# List containers are implemented as doubly-linked lists; Doubly linked lists can store each of the elements they contain in different and unrelated storage locations. The ordering is kept internally by the association to each element of a link to the element preceding it and a link to the element following it.
+
+# forward_list   -> singly linked list  
+  list           -> doubly linked list 
+
+
+# Compared to other base standard sequence containers (array, vector and deque), lists perform generally better in inserting, extracting and moving elements in any position within the container for which an iterator has already been obtained
+
+
+# The main drawback of lists and forward_lists compared to these other sequence containers is that they lack direct access to the elements by their position; For example, to access the sixth element in a list, one has to iterate from a known position (like the beginning or the end) to that position, which takes linear time in the distance between these.  ->  NO RANDOM ACCESS
+
+
+Container Properties
+
+* Sequence
+        Elements in sequence containers are ordered in a strict linear sequence. Individual elements are accessed by their position in this sequence.
+* Doubly-linked list
+        Each element keeps information on how to locate the next and the previous elements, allowing constant time insert and erase operations before or after a specific element (even of entire ranges), but no direct random access.
+* Allocator-aware
+        The container uses an allocator object to dynamically handle its storage needs.

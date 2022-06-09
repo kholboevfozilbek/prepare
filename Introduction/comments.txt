@@ -1,0 +1,25 @@
+
+Comments help the human readers of our programs.
+
+They are typically used to summarize an algorithm, identify the purpose of a variable, or clarify an
+obscure segment of code.
+
+Comments do not increase the size of the executable program.
+
+The compiler ignores all comments.
+
+1. Single line comments 
+
+// comment
+
+2. Multi-line comments
+
+/* 
+
+*/
+
+Comment pairs generally are used
+for multi-line explanations,
+whereas double slash comments
+tend to be used for half-line and
+single line remarks.

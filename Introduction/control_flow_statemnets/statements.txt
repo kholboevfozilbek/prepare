@@ -1,0 +1,26 @@
+
+C++ defines a set of flow-of-control statements that allow statements to be executed conditionally or
+repeatedly.
+
+Simple statements – statements that end with a semicolon.
+For example.:
+a=300;
+a++;
+c=a+b;
+; the null statement
+
+
+Compound statements – are a sequence of simple statements surrounded by a pair of curly
+braces { }.
+For example.:
+{
+a=300;
+a++;
+c=a+b;
+}
+A compound statement, usually is referred to as a block.
+
+Declaration statements
+For example.:
+int a=67;
+
